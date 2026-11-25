@@ -31,7 +31,6 @@ public class Aluno {
         return Math.max(0, mediaNecessaria - calcularMedia());
     }
 
-    // getters e setters (iguais aos seus)
     public String getMatricula() { return matricula; }
     public void setMatricula(String matricula) { this.matricula = matricula; }
     public String getNome() { return nome; }
